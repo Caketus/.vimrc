@@ -41,9 +41,10 @@ command -range Uc <line1>,<line2>s/^\/\/
 :set foldnestmax=10
 :set nofoldenable
 :set foldlevel=2
-"
-"
-"
+
+" move lines up and down
+noremap - ddkkp
+noremap + ddp
 "
 "
 "The following are commands that help with the norm
