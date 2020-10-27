@@ -7,6 +7,9 @@
 " turns mouse cursor navigation on
 :set mouse=a
 
+" highlight searchs when pressing '*' in command mode
+:set hlsearch
+
 " show line numbers
 :set nu
 
