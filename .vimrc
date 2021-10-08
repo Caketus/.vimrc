@@ -34,7 +34,7 @@ command -range Uc <line1>,<line2>s/^\/\/
 
 " in insert mode, press F2 to put a printf that displays 'Hello everyone' in
 " cyan, then resets the color code
-:imap <F2> printf("\x1b[35m""Hello everyone\n""\x1b[0m");
+:nmap <F2> o<Bar>printf("\x1b[35m""Hello everyone\n""\x1b[0m");<Esc>:%s/\|/<Cr>
 
 " enables function folding via command line
 " 'za' toggles it on and off
